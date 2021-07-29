@@ -33,4 +33,7 @@ lgtm-convert /path/to/image.png | imc
 ```
 
 ## reference
-https://github.com/yoshikyoto/lgtmoon
+- https://github.com/yoshikyoto/lgtmoon
+- https://dotcolon.net/font/aileron/
+- http://www.alecjacobson.com/weblog/?p=3816
+- https://gist.github.com/beng/806b8420cc16bcf8a07a
