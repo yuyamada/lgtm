@@ -16,7 +16,13 @@ cp impbcopy /usr/local/bin/  # or other path in PATH
 ```
 brew install pngpaste
 ```
-3. install lgtm
+3. install fonts
+```
+wget https://dotcolon.net/download/fonts/aileron_0102.zip
+unzip aileron_0102.zip -d fonts
+cp fonts/Aileron-{Black,Regular}.otf /Library/Fonts/
+```
+4. install lgtm
 ```
 git clone git@github.com:yuyamada/lgtm.git ~/.lgtm
 source ~/.lgtm/lgtm.sh  # recommend to append this to rcfile
