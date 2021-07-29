@@ -1,6 +1,9 @@
 # lgtm
 commands for converting image to LGTM image.
 
+![](sample/cat.png)
+![](sample/cat-lgtm.png)
+
 ## setup
 ```
 # install impbcopy (http://www.alecjacobson.com/weblog/?p=3816)
@@ -19,8 +22,7 @@ source ~/.lgtm/lgtm.sh  # recommend to append this to rcfile
 ## usage
 ```
 # first, copy the input image to the clipboard
-lgtm
-# now, the converted image is copied to the clipboard
+lgtm  # now, the converted image is copied to the clipboard
 
 # from stdin
 curl http://example.com/image.png | lgtm-convert | imc
@@ -28,3 +30,6 @@ curl http://example.com/image.png | lgtm-convert | imc
 # from file
 lgtm-convert /path/to/image.png | imc
 ```
+
+## reference
+https://github.com/yoshikyoto/lgtmoon
