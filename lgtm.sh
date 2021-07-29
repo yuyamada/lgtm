@@ -9,11 +9,11 @@ function lgtm-convert() {
     -fill white \
     -stroke none \
     -strokewidth 20 \
-    -font ./Aileron-Black.otf \
+    -font /Library/Fonts/Aileron-Black.otf \
     -pointsize 72 \
     -kerning 12 \
     -annotate +0+0 'LGTM' \
-    -font ./Aileron-Regular.otf \
+    -font /Library/Fonts/Aileron-Regular.otf \
     -pointsize 11 \
     -fill white \
     -kerning 6 \
