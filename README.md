@@ -1,5 +1,6 @@
 # lgtm
-commands for converting image to LGTM image.
+Commands for converting image to LGTM image.
+This work is greatly inspired by [lgtmoon](https://github.com/yoshikyoto/lgtmoon).
 
 ![](sample/cat.png)
 ![](sample/cat-lgtm.png)
