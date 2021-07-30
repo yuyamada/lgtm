@@ -5,6 +5,21 @@ This work is greatly inspired by [lgtmoon](https://github.com/yoshikyoto/lgtmoon
 ![](sample/cat.png)
 ![](sample/cat-lgtm.png)
 
+## usage
+1. first, copy the input image to the clipboard.
+2. then, run this command, lgtm image is copied to the clipboard.
+```
+lgtm
+```
+other usages
+```
+# from stdin
+curl http://example.com/image.png | lgtm-convert | imc
+
+# from file
+lgtm-convert /path/to/image.png | imc
+```
+
 ## setup
 1. install impbcopy (http://www.alecjacobson.com/weblog/?p=3816)
 ```
@@ -26,21 +41,6 @@ cp fonts/Aileron-{Black,Regular}.otf /Library/Fonts/
 ```
 git clone git@github.com:yuyamada/lgtm.git ~/.lgtm
 source ~/.lgtm/lgtm.sh  # recommend to append this to rcfile
-```
-
-## usage
-1. first, copy the input image to the clipboard.
-2. then, run this command, lgtm image is copied to the clipboard.
-```
-lgtm
-```
-other usages
-```
-# from stdin
-curl http://example.com/image.png | lgtm-convert | imc
-
-# from file
-lgtm-convert /path/to/image.png | imc
 ```
 
 ## reference
