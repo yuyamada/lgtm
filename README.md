@@ -12,9 +12,9 @@ curl https://gist.githubusercontent.com/beng/806b8420cc16bcf8a07a/raw/2e4e02c30d
 gcc -Wall -g -O3 -ObjC -framework Foundation -framework AppKit -o impbcopy impbcopy.m
 cp impbcopy /usr/local/bin/  # or other path in PATH
 ```
-2. install pngpaste
+2. install imagemagick and pngpaste
 ```
-brew install pngpaste
+brew install imagemagick pngpaste
 ```
 3. install fonts
 ```
