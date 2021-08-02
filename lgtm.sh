@@ -1,4 +1,6 @@
 #!/bin/bash
+LGTMDIR=~/.lgtm
+
 alias imc='impbcopy -'
 alias imp='pngpaste -'
 
@@ -9,11 +11,11 @@ function lgtm-convert() {
     -fill white \
     -stroke none \
     -strokewidth 20 \
-    -font /Library/Fonts/Aileron-Black.otf \
+    -font ${LGTMDIR}/fonts/Aileron-Black.otf \
     -pointsize 72 \
     -kerning 12 \
     -annotate +0+0 'LGTM' \
-    -font /Library/Fonts/Aileron-Regular.otf \
+    -font ${LGTMDIR}/fonts/Aileron-Regular.otf \
     -pointsize 11 \
     -fill white \
     -kerning 6 \
