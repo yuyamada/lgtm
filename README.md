@@ -21,7 +21,6 @@ lgtm-convert /path/to/image.png | imc
 ```
 
 ## setup
-```
 1. install imagemagick and pngpaste
 ```
 brew install imagemagick pngpaste
